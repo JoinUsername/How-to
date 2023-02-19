@@ -31,4 +31,4 @@ Deploying fields to SharePoint can lead to errors, for example, if incorrect pro
 Now you have the problem that you can't delete the field in the frontend, rest and also not via PnP PowerShell.
 
 Here the Grah interface helps.
-[RemoveCorruptedSiteColumn.ps1](https://github.com/JoinUsername/How-to/tree/main/SharePoint/Repairing/RemoveCorruptedSiteColumn.ps1)
+[RemoveCorruptedSiteColumn.ps1](https://github.com/JoinUsername/How-to/tree/main/SharePoint/Scripts/Repairing/RemoveCorruptedSiteColumn.ps1)
