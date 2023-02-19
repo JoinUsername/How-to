@@ -1,6 +1,7 @@
 # SharePoint Online
 
-## Providing content:
+## Provisioning 
+![image](https://user-images.githubusercontent.com/8308659/219971409-40c006dd-d59a-4c34-a430-fa0637711c4e.png)
 
 Deploying fields to SharePoint can lead to errors, for example, if incorrect properties are used on the field being deployed.
 
