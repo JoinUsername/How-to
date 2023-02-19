@@ -13,7 +13,7 @@ Install-Module -Name "PnP.PowerShell" -RequiredVersion $(PowerShellVersion) -For
   <dt>Create SharePoint Site Collection</dt>
   <dd>Write-Host 'Create SPSite'
 
-.\Scripts\Site\CreateCommunicationSite.ps1 -TechnicalRootUrl '$(<em>TechnicalRootUrl</em>)' -Title '$(<em>Title</em>)' -Owner '$(<em>Owner</em>)' -Lcid $(<em>Lcid</em>).</dd>
+  .\Scripts\Site\CreateCommunicationSite.ps1 -TechnicalRootUrl '$(<em>TechnicalRootUrl</em>)' -Title '$(<em>Title</em>)' -Owner '$(<em>Owner</em>)' -Lcid $(<em>Lcid</em>).</dd>
 </dl>
 
 Reference: SharePoint Online Language IDs
@@ -31,4 +31,4 @@ Deploying fields to SharePoint can lead to errors, for example, if incorrect pro
 Now you have the problem that you can't delete the field in the frontend, rest and also not via PnP PowerShell.
 
 Here the Grah interface helps.
-[RemoveCorruptedSiteColumn.ps1](https://github.com/JoinUsername/How-to/tree/main/SharePoint/RemoveCorruptedSiteColumn.ps1)
+[RemoveCorruptedSiteColumn.ps1](https://github.com/JoinUsername/How-to/tree/main/SharePoint/Repairing/RemoveCorruptedSiteColumn.ps1)
