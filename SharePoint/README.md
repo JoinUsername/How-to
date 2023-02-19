@@ -16,7 +16,15 @@ Install-Module -Name "PnP.PowerShell" -RequiredVersion $(PowerShellVersion) -For
 .\Scripts\Site\CreateCommunicationSite.ps1 -TechnicalRootUrl '$(<em>TechnicalRootUrl</em>)' -Title '$(<em>Title</em>)' -Owner '$(<em>Owner</em>)' -Lcid $(<em>Lcid</em>).</dd>
 </dl>
 
+Reference: SharePoint Online Language IDs
+This is a liitle :) list of languages that SharePoint Online supports and the codes to represent them:
 
+|Name	|Language |Tag |LCID|
+|---|---|---|
+|English |en-US	|1033|
+|German	|de-DE |1031|
+|Chinese |(Simplified) zh-CN |2052|
+|Chinese |(Traditional) zh-TW	|1028|
 
 Deploying fields to SharePoint can lead to errors, for example, if incorrect properties are used on the field being deployed.
 
