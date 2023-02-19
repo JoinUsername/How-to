@@ -26,6 +26,13 @@ German	| de-DE | 1031
 Chinese | (Simplified) zh-CN | 2052 
 Chinese | (Traditional) zh-TW	| 1028 
 
+Do you ues field with special characters in title it is nessesery to use Unicode for example German
+[special characters](https://www.designerinaction.de/tipps-tricks/web-development/html-umlaute-sonderzeichen/)
+Characters |	Name	| HTML-Name | Unicode
+--- | --- | --- | ---
+Ä	| A umlauts | `&Auml;` | `&#196;`
+ä | a umlauts | `&auml;` | `&#228;`
+
 Deploying fields to SharePoint can lead to errors, for example, if incorrect properties are used on the field being deployed.
 
 Now you have the problem that you can't delete the field in the frontend, rest and also not via PnP PowerShell.
