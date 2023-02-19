@@ -32,6 +32,10 @@ $data = Invoke-MgGraphRequest -Uri "https://graph.microsoft.com/v1.0/Sites/$($Si
 #@odata.context                 https://graph.microsoft.com/v1.0/$metadata#sites('x SiteID x'…
 #value                          {xxxxxx, xxxxxxxxxxx, xxxxxxxx, Categories…}
 
+# to found only one field
+#$field=$data.value | Where-Object {$_.name -match $fieldname }
+
+# if the name is not unique, there may be more results
 $field=$data.value | Where-Object {$_.name -match $fieldname }
 # ####################################
 # Field result example
